@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="ScoreCategory.cpp" />
+    <ClCompile Include="CpuPlayer.cpp" />
+    <ClCompile Include="DiceRound.cpp" />
+    <ClCompile Include="DiceInputController.cpp" />
+    <ClCompile Include="Dice.cpp" />
+    <ClCompile Include="ScoreBoardView.cpp" />
+    <ClCompile Include="ScoreSelectController.cpp" />
+    <ClCompile Include="ResultView.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Explanation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ScoreCategory.h" />
+    <ClInclude Include="CpuPlayer.h" />
+    <ClInclude Include="DiceRound.h" />
+    <ClInclude Include="DiceInputController.h" />
+    <ClInclude Include="Dice.h" />
+    <ClInclude Include="ScoreBoardView.h" />
+    <ClInclude Include="ScoreSelectController.h" />
+    <ClInclude Include="ResultView.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Explanation.h" />
+  </ItemGroup>
+</Project>
